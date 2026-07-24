@@ -1,94 +1,65 @@
-# DemoApp
+# Demo App - Android Studio Project
 
-A simple Android application developed using **Kotlin** and **Android Studio**. This project serves as a starter template for Android app development and demonstrates the basic project structure using AndroidX libraries.
+An Android application built using Kotlin in Android Studio.
 
-## 📱 Features
+## 📱 Screenshot
 
-- Android application built with Kotlin
-- AndroidX support libraries
-- Edge-to-edge display support
-- Material Design compatible
-- Clean and simple project structure
+![Demo App Screenshot](screenshot.png)
 
-## 🛠️ Tech Stack
+## ✨ Features
 
 - **Language:** Kotlin
-- **IDE:** Android Studio
-- **Build Tool:** Gradle (Kotlin DSL)
-- **Minimum SDK:** 24 (Android 7.0)
-- **Target SDK:** 34
-- **Compile SDK:** 34
+- **UI Framework:** Android XML with `ConstraintLayout`
+- **Minimum SDK:** Android 8.0 (API Level 26)
+- **Target SDK:** Android 14 / API Level 34+
+- **Architecture:** Standard Android App Structure with edge-to-edge support
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 DemoApp/
-│── app/
+├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/
-│   │   │   ├── res/
-│   │   │   └── AndroidManifest.xml
-│── gradle/
-│── build.gradle.kts
-│── settings.gradle.kts
+│   │   │   ├── java/com/example/demoapp/
+│   │   │   │   └── MainActivity.kt
+│   │   │   └── res/
+│   │   │       ├── layout/
+│   │   │       │   └── activity_main.xml
+│   │   │       └── values/
+│   │   │           ├── colors.xml
+│   │   │           ├── strings.xml
+│   │   │           └── themes.xml
+│   │   └── AndroidManifest.xml
+│   └── build.gradle.kts
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Android Studio (latest version recommended)
-- Android SDK 34
-- JDK 17 or later
+- [Android Studio](https://developer.android.com/studio) (latest version recommended)
+- JDK 17 or higher
+- Android SDK (API 34+)
 
-### Installation
+### Building and Running
 
-1. Clone the repository:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/swarupa-2003/Android-studio.git
+   ```
+2. **Open in Android Studio:**
+   - Open Android Studio.
+   - Select **Open an Existing Project** and select the cloned directory.
+3. **Sync Gradle:**
+   - Allow Android Studio to sync the Gradle dependencies automatically.
+4. **Run the Application:**
+   - Connect an Android device or launch an Emulator.
+   - Click **Run** (`Shift + F10`) to build and run the app.
 
-```bash
-git clone https://github.com/your-username/DemoApp.git
-```
+---
 
-2. Open the project in Android Studio.
-
-3. Sync Gradle dependencies.
-
-4. Connect an Android device or start an emulator.
-
-5. Click **Run** to build and launch the application.
-
-## 📸 Screenshots
-
-1. Default Hello World
-
-
-
-## 🔮 Future Improvements
-
-- User Authentication
-- Database Integration
-- API Integration
-- Dark Mode Support
-- Improved UI/UX
-- Additional Features
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Push the branch.
-5. Create a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👩‍💻 Author
-
-**Swarupa S**
-
-GitHub: https://github.com/your-username
+Developed by [swarupa-2003](https://github.com/swarupa-2003).
